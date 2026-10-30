@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing and Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Production Build Artifacts
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Environment & Secret Files (CRITICAL: NEVER COMMIT SECRETS)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# Logs & Diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Uploads & Ephemeral Temp Data
+uploads/
+temp/
+tmp/
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Tooling
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Cloud / Hosting Deploy Tooling
+.vercel/
+.render/
+
